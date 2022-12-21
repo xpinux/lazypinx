@@ -19,6 +19,7 @@ Requirements are:
 Here are the command line arguments that the script accepts:
 
 (REQUIRED) ip_address_or_subnet: The IP address or subnet to scan. This is a required argument.
+* -h For Help.
 * -o or --os: Perform an OS identification scan.
 * -p or --ping: Perform a ping sweep.
 * -s or --stealth: Perform a stealth nmap scan.
@@ -39,5 +40,4 @@ Use Cases:
 4. To perform a vulnerability scan of the IP address 192.168.1.1 using Nikto, you would run the following command:`python lazypinx.py 192.168.1.1 -n`
 5. To perform a port scan of the IP address 192.168.1.1 with additional nmap arguments of -p 80,443 (to scan only ports 80 and 443), you would run the following command`python lazypinx.py 192.168.1.1 -a "-p 80,443"`
 6. To perform a port scan with an IDS evasion technique and a (OPTIONAL) slower timing template:`python lazypinx.py 192.168.1.1 -e randomize_ports -t slow`
-7. You can also use multiple IDS evasion techniques at the same time by specifying them as a comma-separated list:`python lazypinx.py 192.168.1.1 -e randomize_ports,decoy -t slow`
-8. To perform a stealth scan with a slower timing template: `python lazypinx.py 192.168.1.1 -s -t slow`
+7. To perform a stealth scan with a slower timing template: `python lazypinx.py 192.168.1.1 -s -t slow`
