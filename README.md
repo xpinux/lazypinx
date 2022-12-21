@@ -9,6 +9,7 @@ Requirements are:
 |`sudo apt-get install nuclei`|
 |`sudo apt-get install nikto`|
 |`pip install python-nmap`|
+|`pip install argparse`|
 
 
 
