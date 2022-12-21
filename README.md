@@ -61,4 +61,14 @@ This script would not have been possible without the following tools and resourc
   License: Python Software Foundation License
   Website: https://docs.python.org/3/library/subprocess.html
 
+- Nikto: Web server vulnerability scanner
+  Copyright (C) 2001-2021 Cirt.net
+  License: GPLv2
+  Website: https://cirt.net/Nikto2
+
+- Nuclei: Vulnerability scanner
+  Copyright (C) 2020 Project Nuclei
+  License: Apache License 2.0
+  Website: https://projectdiscovery.io/open-source/nuclei
+
 Thank you to the authors and contributors of these tools and resources for making them available for use.
