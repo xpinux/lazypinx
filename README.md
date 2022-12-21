@@ -41,3 +41,24 @@ Use Cases:
 5. To perform a port scan of the IP address 192.168.1.1 with additional nmap arguments of -p 80,443 (to scan only ports 80 and 443), you would run the following command`python lazypinx.py 192.168.1.1 -a "-p 80,443"`
 6. To perform a port scan with an IDS evasion technique and a (OPTIONAL) slower timing template:`python lazypinx.py 192.168.1.1 -e randomize_ports -t slow`
 7. To perform a stealth scan with a slower timing template: `python lazypinx.py 192.168.1.1 -s -t slow`
+
+# ACKNOWLEDGEMENTS
+
+This script would not have been possible without the following tools and resources:
+
+- nmap: Port scanning library for Python
+  Copyright (C) 2010-2021 Fyodor Yarochkin
+  License: GNU General Public License (GPL)
+  Website: https://nmap.org/
+
+- argparse: Command line argument parsing library for Python
+  Copyright (C) 2020 Python Software Foundation
+  License: Python Software Foundation License
+  Website: https://docs.python.org/3/library/argparse.html
+
+- subprocess: Library for running external commands in Python
+  Copyright (C) 2020 Python Software Foundation
+  License: Python Software Foundation License
+  Website: https://docs.python.org/3/library/subprocess.html
+
+Thank you to the authors and contributors of these tools and resources for making them available for use.
