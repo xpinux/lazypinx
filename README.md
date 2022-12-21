@@ -12,10 +12,6 @@ Requirements are:
 |`pip install argparse`|
 
 
-
-
-
-
 Here are the command line arguments that the script accepts:
 
 (REQUIRED) ip_address_or_subnet: The IP address or subnet to scan. This is a required argument.
