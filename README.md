@@ -14,7 +14,9 @@ Requirements are:
 
 Here are the command line arguments that the script accepts:
 
-(REQUIRED) ip_address_or_subnet: The IP address or subnet to scan. This is a required argument.
+(REQUIRED) ip_address_or_subnet: The IP address or subnet to scan. This is a required argument. 
+The Script By default scans with -sV option Enabled.
+
 * -h For Help.
 * -o or --os: Perform an OS identification scan.
 * -p or --ping: Perform a ping sweep.
